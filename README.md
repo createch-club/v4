@@ -27,17 +27,21 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel setup
+## Laravel setup<br>
 
-follow [laragon setup/local development setup ](https://github.com/supermanas/codeigniter/blob/main/development.md)
-#project setup
-change the database details in laragon using 
-1)click and then mysql then to change password to root
-2)go to url (projectname).test/phpmyadmin and login with root as id and password and create new database named root 
-3)database name= root type/details= utf8_general_ci
+follow [laragon setup/local development setup ](https://github.com/supermanas/codeigniter/blob/main/development.md)<br>
 
-4) open terminal and type
-cd (project name)
-npm install
-npm run dev
-php artisan serve( start all before this command in laragon)
+#project setup<br>
+
+change the database details in laragon using <br>
+
+1)click and then mysql then to change password to root<br>
+2)go to url (projectname).test/phpmyadmin and login with root as id and password and create new database named root <br>
+3)database name= root type/details= utf8_general_ci<br>
+
+4) open terminal and type<br>
+cd (project name)<br>
+npm install<br>
+npm run dev<br>
+php artisan migrate(after setting database)<br>
+php artisan serve( start all before this command in laragon)<br>
