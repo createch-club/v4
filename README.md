@@ -31,7 +31,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 follow [laragon setup/local development setup ](https://github.com/supermanas/codeigniter/blob/main/development.md)<br>
 
-#project setup<br>
+##project setup<br>
 
 change the database details in laragon using <br>
 
@@ -45,3 +45,9 @@ npm install<br>
 npm run dev<br>
 php artisan migrate(after setting database)<br>
 php artisan serve( start all before this command in laragon)<br>
+## features
+/admin<br>
+/register<br>
+/login<br>
+2fa feature<br>
+multiple device feature<br>
