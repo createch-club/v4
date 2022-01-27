@@ -39,5 +39,5 @@ change the database details in laragon using
 4) open terminal and type
 cd (project name)
 npm install
-npm run deb
+npm run dev
 php artisan serve( start all before this command in laragon)
